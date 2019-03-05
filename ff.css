@@ -1,0 +1,56 @@
+html { 
+  background: url("https://i.redd.it/q5w20mb64phx.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+
+p { 
+font-family: 'Major Mono Display', monospace;
+font-family: 'Libre Barcode 39 Text', cursive;
+color: black;
+font-size: 55px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+  font-family: 'Source Code Pro', monospace;
+  position: fixed;
+  left: 50%;
+  bottom: 55px;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+}
+
+.btn-xl {
+  padding: 1rem 2rem; 
+}
+
+.btn-primary {
+  background-color: transparent;
+  border-color: black;
+}
+
+.btn-primary:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
